@@ -1,0 +1,39 @@
+.choices{
+    display:flex;   
+    justify-content: space-evenly; 
+    flex-wrap: wrap;
+    
+    width:50%;
+    padding:5px;
+    margin:5px;
+}
+
+[class="choices__paints options"]{
+    display: flex;
+    justify-content: center;  
+    align-items: center;  
+    flex-direction: column;
+    width: 30vh;
+    border: 2px dotted blue;
+    border-radius: 10px; 
+    background-color: antiquewhite;
+    padding:5px 30px 50px 30px;   
+    margin:10px; 
+}
+
+
+
+#placeCarOrder{
+    background-color: rgb(16, 53, 16);
+    color: white;
+    padding:10Px;
+}
+
+.eachOrder{
+    border: 2px dotted blue;
+    width:50%;
+    padding: 5px 0px 5px 0px;
+    margin:5px;
+    background-color: rgb(158, 218, 232);
+}
+
